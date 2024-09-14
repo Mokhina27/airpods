@@ -1,0 +1,252 @@
+@import 'font.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header__nav{
+    background: #282828;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__logo {
+    padding: 6px 0;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__list-link {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+}
+
+.search__btn {
+    margin-right: 25px;
+}
+
+.intro {
+    background: url(../img/header-background.svg) no-repeat center / cover;
+    height: 100vh;
+}
+
+.intro .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.intro__title {
+    color: #FFF;
+    font-family: 'ProstoOne';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.intro__text {
+    color: #171718;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 13px 14px 13px 14px;
+}
+
+.intro__text img {
+    padding-left: 11px;
+}
+
+.airpods{
+    background: #151515;
+}
+
+.airpods1 {
+    display: flex;
+}
+
+.airpods2 {
+    display: flex;
+}
+
+.airpods3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.airpods1__text {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 130px;
+    margin-right: 30px;
+    width: 538px;
+}
+
+.airpods1__img {
+    margin-top: 30px;
+}
+
+.airpods2__text {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    width: 540px;
+    margin-top: 201px;
+    margin-left: 87px;
+}
+
+.airpods3__text {
+    color: #FFF;
+    font-size: 20px;
+    width: 333px;
+    text-align: right;
+    margin-top: 195px;
+    margin-right: 13px;
+}
+
+.airpods3__img {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.airpods3__img::before {
+    content: '';
+    background: #C4C4C4; 
+    width: 61px;
+    height: 1px; 
+}
+
+.airpods3__img::after {
+    content: '';
+    background: #C4C4C4; 
+    width: 61px;
+    height: 1px;
+}
+
+.airpods3__text2 {
+    color: #FFF;
+    font-size: 20px;
+    width: 333px;
+    margin-top: 183px;
+    margin-left: 11px;
+}
+
+.airpods3__img {
+    margin-top: 50px;
+}
+
+
+.iphones__catalog {
+    padding-top: 79px;
+    background: #151515;
+    padding-bottom: 50px;
+}
+
+.catalog__items {
+    display: flex;
+    gap: 30px;
+}
+
+.catalog__item {
+    border-radius: 6px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone__title {
+    color: #000;
+    font-size: 20px;
+    padding: 15px 59px 10px 58px;
+}
+
+.iphone__text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 63px 20px 62px;
+}
+
+.iphone__btn {
+    color: #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #151515;
+    padding: 7px 57px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background: #282828;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    padding-top: 81px;
+    margin-bottom: 81px;
+}
+
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__list-link {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+}
+
+.footer__payments {
+    display: flex;
+    gap: 29px;
+}
